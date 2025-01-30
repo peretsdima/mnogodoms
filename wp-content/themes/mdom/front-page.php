@@ -193,6 +193,7 @@ get_header(); ?>
 								<p class="pop pop2"><?php _e('tourism region','mdom'); ?> <span><?php if($r['tourism']) { ?><img src="<?php echo get_template_directory_uri(); ?>/images/icon9.svg" alt="" /><?php }else { ?><img src="<?php echo get_template_directory_uri(); ?>/images/icon91.svg" alt="" /><?php } ?></span></p>
 								<p class="pop pop3"><?php _e('average temperature','mdom'); ?> <span><?php echo $r['temperature']; ?></span></p>
 							</div>
+							<a href="<?php echo $r['link']; ?>" class="btn btn4"><?php _e('See more','mdom'); ?></a>
 							<p class="dop"><span><?php _e('Our specialists will select','mdom'); ?></span><br/><span><?php _e('the best real estate option for you','mdom'); ?></span></p>
 							<a href="#form" data-fancybox class="btn btn3"><?php _e('Сontact us today','mdom'); ?></a>
 						</div>

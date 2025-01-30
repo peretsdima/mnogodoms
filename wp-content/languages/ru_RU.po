@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.7.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-12-22 09:20:53+0000\n"
+"PO-Revision-Date: 2025-01-30 08:56:10+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -286,6 +286,36 @@ msgstr "Январь"
 msgid "Uncategorized"
 msgstr "Без рубрики"
 
+#. translators: %s: list of allowed collection roots
+#: wp-includes/class-wp-block-metadata-registry.php:127
+msgid "Block metadata collections cannot be registered as one of the following directories or their parent directories: %s"
+msgstr "Коллекции метаданных блоков не могут быть зарегистрированы в качестве одного из следующих каталогов или их родительских каталогов: %s"
+
+#: wp-includes/theme.json
+msgctxt "Shadow name"
+msgid "Crisp"
+msgstr "Чёткая"
+
+#: wp-includes/theme.json
+msgctxt "Shadow name"
+msgid "Outlined"
+msgstr "Контурная"
+
+#: wp-includes/theme.json
+msgctxt "Shadow name"
+msgid "Sharp"
+msgstr "Резкая"
+
+#: wp-includes/theme.json
+msgctxt "Shadow name"
+msgid "Deep"
+msgstr "Глубокая"
+
+#: wp-includes/theme.json
+msgctxt "Shadow name"
+msgid "Natural"
+msgstr "Естественная"
+
 #: wp-includes/theme.json
 msgctxt "Aspect ratio name"
 msgid "Tall - 9:16"
@@ -438,14 +468,9 @@ msgstr "Названия шаблонов не должны содержать �
 msgid "Template names must be strings."
 msgstr "Названия шаблонов должны представлять собой строки."
 
-#: wp-includes/class-wp-block-metadata-registry.php:125
+#: wp-includes/class-wp-block-metadata-registry.php:138
 msgid "The specified manifest file does not exist."
 msgstr "Указанный файл манифеста не существует."
-
-#: wp-includes/class-wp-block-metadata-registry.php:107
-#: wp-includes/class-wp-block-metadata-registry.php:116
-msgid "Block metadata collections can only be registered for a specific plugin. The provided path is neither a core path nor a valid plugin path."
-msgstr "Коллекции метаданных блоков можно зарегистрировать только для определенного плагина. Указанный путь не является ни основным путем, ни допустимым путем к плагину."
 
 #: wp-includes/blocks/widget-group/block.json
 msgctxt "block title"
