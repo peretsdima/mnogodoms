@@ -242,6 +242,10 @@
 	#visa .tab-content .d-flex > div {
 		max-width: 100%;
 	}
+	#visa .sl img {
+		height: 55vw;
+		object-fit: cover;
+	}
 	#visa .tab-content .d-flex .col-left {
 		margin-bottom: 40px;
 	}

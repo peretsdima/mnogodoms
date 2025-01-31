@@ -611,6 +611,11 @@ color: #3e3e3e;
 #visa .col-left > div {
 	max-width: 430px;
 }
+#visa .sl img {
+	width: 100%;
+	height: 350px;
+	object-fit: cover;
+}
 #visa .slick-arrow {
 	display: block;
 	text-indent:-9999px;
